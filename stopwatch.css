@@ -1,0 +1,49 @@
+/*MTobler and CSE471 Team 4: Quick and Dirty Stopwatch Interactive Mockup */
+
+.circle {
+   height: 2.5rem;
+   width: 2.5rem;
+   background-color: #999;
+   border-radius: 50%;
+   padding: 1rem;
+   margin: 1rem;   
+   align-items: center;
+}
+
+
+.bigCircle {
+   height: 5rem;
+   width: 5rem;
+   background-color: #999;
+   border-radius: 50%;
+   padding: 4rem;
+   margin: 1rem;   
+}
+
+.controls {
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+}
+
+.clock{
+   display:flex;
+   width: 15rem;   
+   align-items: center;
+   padding-top: .5rem;
+   padding-right: 2.5rem;
+   padding-bottom: 0.5rem;
+   padding-left: 2.5rem;
+}
+
+.background {
+   background-color: #000;
+   display: inline-block;  
+   padding: 2rem;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: 300;
+}
+
+.circle>div {
+   padding: .4rem;
+}
