@@ -28,6 +28,7 @@
    display: flex;
    flex-wrap: nowrap;
    align-items: center;
+   margin-top: -1rem;
 }
 
 .clock{
@@ -46,8 +47,20 @@
    padding: 2rem;
    font-family: 'Source Sans Pro', sans-serif;
    font-weight: 300;
+   text-align: center;
 }
 
 .circle>div {
    padding: .4rem;
+}
+
+h1 {
+   color: #999;
+   font-variant: small-caps;
+}
+
+.adjust {   
+   margin-top: 2.5rem !important;
+   /* padding-top: 4rem;    */
+   color: inherit;
 }

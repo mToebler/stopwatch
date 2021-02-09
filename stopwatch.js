@@ -46,3 +46,7 @@ document.addEventListener(
          );
    }
 );
+
+window.onload = () => {
+   document.getElementById("reset").parentElement.classList.add("adjust");
+};
